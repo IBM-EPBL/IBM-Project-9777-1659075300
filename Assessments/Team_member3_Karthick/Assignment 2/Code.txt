@@ -1,0 +1,20 @@
+Assignment : II
+Title      : Assignment on temperature and humidity sensing
+
+Program :
+
+import random
+
+while(True):
+    temperature=random.randint(0,100)
+    
+    humidity=random.randint(0,100)
+    
+    if(temperature>37):
+        if(humidity>65):
+            print("Temperature and Humidity are : ",temperature,humidity,"and","High temperature and humidity are detected")
+        else:
+            print("Temperature and Humidity are : ",temperature,humidity,"and","High temperature is detected")
+    else:
+        print("Temperature and Humidity are : ",temperature,humidity,"and","Normal temperature is detected")
+        break
